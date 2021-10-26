@@ -1,0 +1,14 @@
+$container: 1130px;
+$font-family1: 'DM Sans', sans-serif;
+$font-family2: 'Mulish', sans-serif;
+
+$text-color: #696871;
+$title-color: #19191B;
+$blue: #5454D4;
+$orange: #FF7143;
+
+%title-font {
+    font-family: $font-family1;
+    font-weight: 700;
+    color: $title-color;
+}

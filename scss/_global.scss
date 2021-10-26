@@ -1,0 +1,17 @@
+body {
+    font-family: $font-family1;
+    font-size: 20px;
+    font-weight: 400;   
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: $container;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.lock {
+    overflow: hidden;
+}
+

@@ -1,0 +1,211 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+// === header ===
+
+.header{
+    padding-top: 30px;  
+    padding-bottom: 30px;   
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__btn {
+        border: none;
+        background-color: $orange;
+        color: #fff;
+        padding: 19px 60px;
+        font-size: 17px;    
+        font-weight: 700;
+        line-height: 22px;
+        border-radius: 10px;    
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 327px;   
+
+    &__link {
+        font-weight: 700;
+        color: $text-color;
+        font-size: 15px;
+        line-height: 20px;
+        transition: all .3s;
+
+        &:hover {
+            color: $title-color;
+            text-decoration: underline;
+        }
+    }
+}
+
+.burger {
+    z-index: 15;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    display: none;
+
+    &__line {
+        background-color: $title-color;
+        height: 3px;
+        width: 25px;
+        margin-bottom: 5px;
+        
+    }
+}
+
+// === /header ===
+
+
+
+// === hero ===
+
+.hero {
+    padding-top: 70px;      
+    padding-bottom: 50px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__box {
+        max-width: 493px;
+        margin-right: 10px;
+        margin-top: 92px;
+    }
+
+    &__title {
+        @extend %title-font;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 77px;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        color: $text-color;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 50px;
+        font-family: $font-family2;
+        font-weight: 400;
+    }
+
+    &__buttons {
+        display: flex;  
+    }
+
+    &__btn {
+        margin-right: 40px;
+        border: none;
+        background-color: $blue;
+        color: #fff;
+        font-size: 17px;
+        line-height: 22px;
+        padding: 19px 60px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    &__btn-down {
+        background-color: transparent;
+        border: 1px solid #E7E7E7;
+        padding: 19px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+// === /hero ===
+
+
+// === brands ===
+
+.brands {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+// === /brands ===
+
+
+// === services ===
+
+.services {
+    padding-top: 100px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 962px;
+        flex-wrap: wrap;
+        margin-bottom: 83px;
+    }
+
+    &__item-textbox {
+        max-width: 457px;
+    }
+
+    &__item-title {
+        @extend %title-font;
+        font-size: 50px;
+        line-height: 57px;
+        margin-bottom: 30px;    
+    }
+
+    &__item-text {
+        font-family: $font-family2;
+        font-weight: 400;
+        color: $text-color;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__item-link {
+        font-weight: 700;
+        color: $blue;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    &__img--second {
+        order: 2;
+    }
+}
+
+// === /services ===
+
+
+@import 'media';
