@@ -19,4 +19,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 300);
         toggle(body, 'lock');
     });
+
 });

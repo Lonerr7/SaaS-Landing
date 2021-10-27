@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: $font-family1;
     font-size: 20px;
     font-weight: 400;   
-    scroll-behavior: smooth;
 }
 
 .container {
