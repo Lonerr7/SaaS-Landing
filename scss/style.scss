@@ -180,6 +180,10 @@
         max-width: 962px;
         flex-wrap: wrap;
         margin-bottom: 83px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     &__item-textbox {
