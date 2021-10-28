@@ -15,8 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         toggle(menu, '--active');
         setTimeout(() => {
-            toggle(menuBtn,  'btn--active');
+            
         }, 300);
+        toggle(menuBtn,  'btn--active');
         toggle(body, 'lock');
     });
 
