@@ -250,7 +250,7 @@
     }
 
     &__item-img--right {
-        margin: 0 auto 7px 34px;
+        margin: 0 auto 7px auto;
     }
 
     &__item-title {
@@ -276,13 +276,14 @@
 
 .tariff {
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     
     &__top {
         display: flex;
         justify-content: space-between;
         align-items: center;   
         margin-bottom: 82px;
+        flex-wrap: wrap;
     }
 
     &__title {
@@ -290,12 +291,14 @@
         @extend %title-font;
         font-size: 60px;
         line-height: 70px;
+        margin-bottom: 30px;
     }
 
     &__btns {
         padding: 5px 0 5px 8px;
         background-color: #F7F7FB;
         border-radius: 10px;
+        margin-left: 20px;
     }
 
     &__btn {

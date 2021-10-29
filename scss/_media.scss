@@ -42,6 +42,24 @@
     }
 }
 
+@media (max-width: 940px) {
+    // === tariff ===
+    .tariff {
+        padding-top: 50px;  
+        padding-bottom: 40px;
+
+        &__title {
+            max-width: 100%;
+            text-align: center;
+        }
+
+        &__btns {
+            margin-left: 0;
+            margin: 0 auto;
+        }
+    }
+}
+
 @media (max-width: 835px) {
     // === services ===
     .services {
@@ -59,6 +77,15 @@
 
         &__img--second {
             order: 0;
+        }
+    }
+
+    // === tariff ===
+    .tariff {
+
+        &__title {
+            font-size: 53px;
+            line-height: 57px;
         }
     }
 }
@@ -132,6 +159,24 @@
     }
 }
 
+@media (max-width: 725px) {
+    // === tariff ===
+    .tariff {
+        
+        &__content {
+            justify-content: center;
+        }
+
+        &__item-price {
+            font-size: 53px;
+        }
+
+        &__item-pricespan {
+            font-size: 26px;
+        }
+    }
+}
+
 @media (max-width: 695px) {
     // === abilities ===
     .abilities {
@@ -142,6 +187,16 @@
 
         &__item-img--1 {
             margin: 0 auto 7px 17px;
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    // === tariff ===
+    .tariff {
+
+        &__item {
+            margin-right: 0;
         }
     }
 }
@@ -199,6 +254,18 @@
             margin-bottom: 20px;
         }
     }
+
+    // === tariff ===
+    .tariff {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        &__title {
+            font-size: 48px;
+            line-height: 47px;
+            margin-bottom: 25px;
+        }
+        
+    }
 }
 
 @media (max-width: 500px) {
@@ -248,11 +315,37 @@
             height: 400px;
         }
     }
+
+    // === tariff ===
+    .tariff {
+
+        &__top {
+            margin-bottom: 50px;
+        }
+
+        &__title {
+            font-size: 38px;
+            line-height: 36px;
+            margin-bottom: 20px;
+        }
+
+        &__btn {
+            padding: 14px 38px;
+        }
+    }
 }
 
 @media (max-width: 400px) {
     .header__btn {
         padding: 14px 27px;
+    }
+
+    // === tariff ===
+    .tariff {
+
+        &__item-btn {
+            padding: 15px 62px;
+        }
     }
 }
 
